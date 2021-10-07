@@ -27,8 +27,7 @@ public class DocumentInvoker {
         commands.get(i).redo();
     }
 
-    @Override
-    public String toString() {
-        return document.toString();
+    public String readDocument(){
+      return   document.read();
     }
 }

@@ -23,4 +23,8 @@ public class Document {
     public String toString() {
         return _text.stream().reduce("", (a, b) -> a + b);
     }
+
+    public String read() {
+        return _text.stream().reduce("", (a, b) -> a + b);
+    }
 }
